@@ -8,7 +8,7 @@ export default function Layout({setResultat, getMovies}){
         <>
          <header>
                 <h1>Filmer: </h1> 
-                <SearchResults setResultat={setResultat} getMovies={getMovies} />
+                <SearchResults setResultat={setResultat} getMovies={getMovies} i class="bi bi-search" />
           </header>
           
           <main className="content">
